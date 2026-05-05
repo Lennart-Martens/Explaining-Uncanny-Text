@@ -83,13 +83,8 @@ To provide transparency into the model's predictions, several **Interpretability
 * **Joshua** — Use attention heads to analyze decisions.
 * **Lennart** — Use LIME to analyze decisions.
 * **Shared** — Build roBERTa classifier, help build a Q&A dataset from more recent LLM versions, and compare and contrast our separate findings.
----
+
 
 # 📜 References
 
 1. Guo, B., et al. (2023). *How Close is ChatGPT to Human Experts? HC3 Dataset*.
-2. Rodrigues, F. A., et al. (2026). *A linguistic comparison between human- and AI-generated content*.
-3. Jurafsky, D., & Martin, J. H. (2026). *Speech and Language Processing* (3rd ed.).
-
-```
-
