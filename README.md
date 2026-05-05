@@ -10,16 +10,23 @@ As LLMs evolve, their outputs increasingly mimic human proficiency, posing chall
 * **Linguistic Analysis**: Comparative study of text length and perplexity distributions between human and AI samples.
 * **Explainability (XAI)**: Implementation of **SHAP**, **LIME**, and **Attention Head visualization** to identify key predictive tokens.
 
+
 ---
 
-## 🛠 Repository Structure
+# 🛠 Repository Structure
 
-| File | Purpose |
-| :--- | :--- |
-| `dataset_collection.ipynb` | Extracts and cleans the raw HC3 English dataset. |
-| `LLMs_data_collection.ipynb` | Generates 24,000+ responses from GPT-5.4-mini via the OpenAI API. |
-| `NLU_project_finetuning.ipynb` | Handles the fine-tuning of the RoBERTa-base classifier and evaluation. |
-| `Perplexity_length_comparesion.ipynb` | Performs statistical analysis and generates KDE plots for text features. |
+| File                                  | Description                                                                    |
+| ------------------------------------- | ------------------------------------------------------------------------------ |
+| `requirements.txt`                    | Lists all Python libraries and versions required to run the project.           |
+| `dataset_collection.ipynb`            | Extracts and cleans the raw HC3 English dataset for training.                  |
+| `LLMs_data_collection.ipynb`          | Contains the loop to generate 24k+ answers from GPT-5.4-mini via API.          |
+| `NLU_project_finetuning.ipynb`        | for fine-tuning the BERT and RoBERTa classifier and performance evaluation     |
+| `Perplexity_length_comparesion.ipynb` | Analyzes length and perplexity distributions using statistical visualizations. |
+| `all.jsonl`                           | HC3 raw dataset from haggingface.                                              |
+| `HC3 dataset.zip`                     | processed HC3 dataset of train, val, and test sets for training                |
+| `GPT5.40mini-data.zip`                | processed HC3 dataset with GPT5.4-mini of train, val, and test sets            |
+
+ 
 
 ---
 
@@ -69,25 +76,6 @@ To provide transparency into the model's predictions, several **Interpretability
 * **SHAP & LIME:** Visualize token-level importance and identify which specific words trigger an "AI" classification.
 * **Attention Analysis:** Map the transformer attention heads to see how the model processes syntactic structures unique to LLMs.
 * **Linguistic Comparison:** Statistical analysis of perplexity and sentence complexity across different model versions using KDE plots.
-
----
-
-# 🛠 Repository Structure
-
-| File                                  | Description                                                                    |
-| ------------------------------------- | ------------------------------------------------------------------------------ |
-| `requirements.txt`                    | Lists all Python libraries and versions required to run the project.           |
-| `dataset_collection.ipynb`            | Extracts and cleans the raw HC3 English dataset for training.                  |
-| `LLMs_data_collection.ipynb`          | Contains the loop to generate 24k+ answers from GPT-5.4-mini via API.          |
-| `NLU_project_finetuning.ipynb`        | for fine-tuning the BERT and RoBERTa classifier and performance evaluation     |
-| `Perplexity_length_comparesion.ipynb` | Analyzes length and perplexity distributions using statistical visualizations. |
-| `all.jsonl`                           | HC3 raw dataset from haggingface.                                              |
-| `HC3 dataset.zip`                     | processed HC3 dataset of train, val, and test sets for training                |
-| `GPT5.40mini-data.zip`                | processed HC3 dataset with GPT5.4-mini of train, val, and test sets            |
-
- 
-
----
 
 # 👥 Authors
 
