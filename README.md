@@ -23,7 +23,7 @@ As LLMs evolve, their outputs increasingly mimic human proficiency, posing chall
 | `NLU_project_finetuning.ipynb`        | for fine-tuning the BERT and RoBERTa classifier and performance evaluation     |
 | `Perplexity_length_comparesion.ipynb` | Analyzes length and perplexity distributions using statistical visualizations. |
 | `all.jsonl`                           | HC3 raw dataset from haggingface.                                              |
-| `HC3 dataset.zip`                     | processed HC3 dataset of train, val, and test sets for training                |
+| `HC3_dataset.zip`                     | processed HC3 dataset of train, val, and test sets for training                |
 | `GPT5.4-mini-data.zip`                | processed HC3 dataset with GPT5.4-mini of train, val, and test sets            |
 
  
