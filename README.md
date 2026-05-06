@@ -81,6 +81,13 @@ To provide transparency into the model's predictions, several **Interpretability
 * **Attention Analysis:** Map the transformer attention heads to see how the model processes syntactic structures unique to LLMs.
 * **Linguistic Comparison:** Statistical analysis of perplexity and sentence complexity across different model versions using KDE plots.
 
+# Trained RoBERTa Models
+
+The full RoBERTa Models were too large to upload to github, so the files can be downloaded from the links below. These files are required to run the Attention Head Analysis.
+
+* [HC3 RoBERTa Model](https://drive.google.com/drive/folders/1MJmWl22bFc8f9kuOI2pkN4JjeaPBlD7b?usp=drive_link)
+* [GPT-5.4-mini Model](https://drive.google.com/drive/folders/1Qxhx0VB9G01PQ_F83x2kPTGY7ucdwYCB?usp=sharing)
+
 # 👥 Authors
 
 * **Kohei** —  Use SHAP to analyze decisions.
