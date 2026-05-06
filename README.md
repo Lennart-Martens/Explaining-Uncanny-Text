@@ -25,6 +25,8 @@ As LLMs evolve, their outputs increasingly mimic human proficiency, posing chall
 | `all.jsonl`                           | HC3 raw dataset from haggingface.                                              |
 | `HC3_dataset.zip`                     | processed HC3 dataset of train, val, and test sets for training                |
 | `GPT5.4-mini-data.zip`                | processed HC3 dataset with GPT5.4-mini of train, val, and test sets            |
+| `shap_analysis.ipynb`                 | Computing SHAP values for test data and visualize them                         |
+
 
  
 
